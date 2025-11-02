@@ -1,0 +1,158 @@
+{
+  "generated_at": "2025-11-02T16:43:12.052045Z",
+  "target": "8.8.8.8",
+  "resolved_ip": "8.8.8.8",
+  "geo": {
+    "status": "success",
+    "country": "United States",
+    "regionName": "Virginia",
+    "city": "Ashburn",
+    "zip": "20149",
+    "lat": 39.03,
+    "lon": -77.5,
+    "timezone": "America/New_York",
+    "isp": "Google LLC",
+    "org": "Google Public DNS",
+    "as": "AS15169 Google LLC",
+    "reverse": "dns.google",
+    "query": "8.8.8.8"
+  },
+  "rdns": "dns.google",
+  "whois": {
+    "error": "python-whois not installed (pip install python-whois)"
+  },
+  "banners": {
+    "53": null,
+    "443": null,
+    "21": null,
+    "25": null,
+    "22": null,
+    "23": null,
+    "80": null,
+    "143": null,
+    "110": null,
+    "465": null,
+    "3389": null,
+    "8080": null,
+    "3306": null,
+    "587": null
+  },
+  "http": {
+    "http://8.8.8.8": {
+      "error": "HTTPConnectionPool(host='8.8.8.8', port=80): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x78055a06e0>, 'Connection to 8.8.8.8 timed out. (connect timeout=8)'))"
+    },
+    "https://8.8.8.8": {
+      "status_code": 200,
+      "headers": {
+        "Content-Security-Policy": "object-src 'none';base-uri 'self';script-src 'nonce-1SLrlb7TxWgxKYBI7bvnVg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/honest_dns/1_0;frame-ancestors 'none'",
+        "Strict-Transport-Security": "max-age=31536000; includeSubDomains; preload",
+        "X-Content-Type-Options": "nosniff",
+        "Content-Security-Policy-Report-Only": "script-src 'none'; form-action 'none'; frame-src 'none'; report-uri https://csp.withgoogle.com/csp/scaffolding/ntdsgswbsc:55:0",
+        "Cross-Origin-Opener-Policy-Report-Only": "same-origin; report-to=ntdsgswbsc:55:0",
+        "Report-To": "{\"group\":\"ntdsgswbsc:55:0\",\"max_age\":2592000,\"endpoints\":[{\"url\":\"https://csp.withgoogle.com/csp/report-to/scaffolding/ntdsgswbsc:55:0\"}],}",
+        "Content-Encoding": "gzip",
+        "Server": "scaffolding on HTTPServer2",
+        "Content-Length": "720",
+        "X-XSS-Protection": "0",
+        "X-Frame-Options": "SAMEORIGIN",
+        "Date": "Sun, 02 Nov 2025 16:42:18 GMT",
+        "Expires": "Sun, 02 Nov 2025 16:47:18 GMT",
+        "Cache-Control": "public, max-age=300",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Age": "80",
+        "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000"
+      },
+      "title": "Google Public DNS",
+      "url": "https://dns.google/"
+    }
+  },
+  "tls": {
+    "subject": [
+      [
+        [
+          "commonName",
+          "dns.google"
+        ]
+      ]
+    ],
+    "issuer": [
+      [
+        [
+          "countryName",
+          "US"
+        ]
+      ],
+      [
+        [
+          "organizationName",
+          "Google Trust Services"
+        ]
+      ],
+      [
+        [
+          "commonName",
+          "WR2"
+        ]
+      ]
+    ],
+    "version": 3,
+    "serialNumber": "F8D2A5847A02308209EA36F3659C34CE",
+    "notBefore": "Oct 13 08:39:44 2025 GMT",
+    "notAfter": "Jan  5 08:39:43 2026 GMT",
+    "subjectAltName": [
+      [
+        "DNS",
+        "dns.google"
+      ],
+      [
+        "DNS",
+        "dns.google.com"
+      ],
+      [
+        "DNS",
+        "*.dns.google.com"
+      ],
+      [
+        "DNS",
+        "8888.google"
+      ],
+      [
+        "DNS",
+        "dns64.dns.google"
+      ],
+      [
+        "IP Address",
+        "8.8.8.8"
+      ],
+      [
+        "IP Address",
+        "8.8.4.4"
+      ],
+      [
+        "IP Address",
+        "2001:4860:4860:0:0:0:0:8888"
+      ],
+      [
+        "IP Address",
+        "2001:4860:4860:0:0:0:0:8844"
+      ],
+      [
+        "IP Address",
+        "2001:4860:4860:0:0:0:0:6464"
+      ],
+      [
+        "IP Address",
+        "2001:4860:4860:0:0:0:0:64"
+      ]
+    ],
+    "OCSP": [
+      "http://o.pki.goog/wr2"
+    ],
+    "caIssuers": [
+      "http://i.pki.goog/wr2.crt"
+    ],
+    "crlDistributionPoints": [
+      "http://c.pki.goog/wr2/oQ6nyr8F0m0.crl"
+    ]
+  }
+}

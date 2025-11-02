@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whoip"
+version = "0.1.0"
+description = "WHOip — Ethical IP reconnaissance toolkit"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [ { name = "Automated Assistant" } ]
+
+[project.scripts]
+whoip = "whoip:main"

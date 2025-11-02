@@ -1,0 +1,12 @@
+:root{--bg:#0b0f14;--panel:#061018;--accent:#7ef2ff;--muted:#8be9ff}
+body{background:var(--bg);color:var(--accent);font-family:Inter,Segoe UI,Arial;margin:0;padding:24px}
+.container{max-width:1000px;margin:0 auto}
+header{display:flex;gap:12px;align-items:center}
+header h1{margin:0;font-size:20px}
+main{margin-top:18px}
+.panel{background:linear-gradient(135deg,var(--panel) 0%,rgba(8,12,18,.7) 100%);padding:12px;border-radius:10px;box-shadow:0 6px 20px rgba(0,0,0,.6)}
+.k{color:var(--muted);min-width:180px;display:inline-block}
+pre{background:#00111a;padding:10px;border-radius:8px;overflow:auto;color:#e7ffee}
+.file-info{margin-bottom:12px}
+
+@media (max-width:680px){.k{display:block;margin-bottom:6px}}
