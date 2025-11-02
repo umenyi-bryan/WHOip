@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/release-banner.svg" alt="WHOip v1.0.0 release banner" />
+</p>
 # WHOip — Ethical IP reconnaissance toolkit
 
 WHOip is a compact, auditable CLI for IP/domain reconnaissance: geolocation, reverse-DNS, WHOIS, concurrent banner grabs, HTTP/TLS fingerprinting, optional Shodan and nmap integration, plus JSON + neon HTML reports.
